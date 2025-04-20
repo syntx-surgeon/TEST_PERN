@@ -13,3 +13,4 @@ export const sql = neon(
 );
 
 // This sql function we export is used as a tagged template literal, which allows us to write SQL queries safely
+// without worrying about SQL injection attacks. It also handles connection pooling for us.
